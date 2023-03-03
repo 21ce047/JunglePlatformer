@@ -1,0 +1,1152 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "LevelFinished",
+  "name": "LevelFinished",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 1.168,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Entity",
+      "objects": []
+    },
+    {
+      "name": "Object",
+      "objects": [
+        {
+          "name": "Background"
+        },
+        {
+          "name": "Header"
+        },
+        {
+          "name": "IconBackground"
+        },
+        {
+          "name": "Icon"
+        },
+        {
+          "name": "LivesIndicator"
+        },
+        {
+          "name": "ProgressBarBackground"
+        },
+        {
+          "name": "ProgressBar"
+        },
+        {
+          "name": "ProgressBarMarker"
+        },
+        {
+          "name": "Table"
+        },
+        {
+          "name": "Item"
+        },
+        {
+          "name": "Level"
+        },
+        {
+          "name": "Transition"
+        },
+        {
+          "name": "Message"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "GUI",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "9ec4ef3f-6237-4739-bfad-3f853da6e2eb",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 368,
+      "layer": "GUI",
+      "name": "Table",
+      "persistentUuid": "d6aa5889-6a33-4055-ae32-a1ce033d4a24",
+      "width": 320,
+      "x": 320,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 112,
+      "layer": "GUI",
+      "name": "Header",
+      "persistentUuid": "b4b1d232-5f6f-466e-b4c3-2315bc84c3a8",
+      "width": 320,
+      "x": 312,
+      "y": 32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "name": "Item",
+      "persistentUuid": "3b68a074-7afb-4914-b7ac-bb9ad183970f",
+      "width": 0,
+      "x": 368,
+      "y": 208,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "name": "Item",
+      "persistentUuid": "ce980e16-da72-4843-a5f4-2041ae1db0d6",
+      "width": 0,
+      "x": 368,
+      "y": 304,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "GUI",
+      "name": "Item",
+      "persistentUuid": "8965ff0a-5f88-4bb7-8016-8ed753d09084",
+      "width": 32,
+      "x": 368,
+      "y": 256,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "f0b2132c-c991-4b0b-b376-7d74660bfde2",
+      "width": 208,
+      "x": 368,
+      "y": 144,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "fade6fd0-b89f-43c4-902c-4f7c3d3a91f3",
+      "width": 160,
+      "x": 416,
+      "y": 216,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "Coin"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "name": "Level",
+      "persistentUuid": "5ac741ec-b39f-43d0-bd26-e4a02bcc3ad6",
+      "width": 0,
+      "x": 432,
+      "y": 392,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "name": "Item",
+      "persistentUuid": "5f13d7a5-9e37-4324-a4d1-180b7a8e39dd",
+      "width": 48,
+      "x": 360,
+      "y": 352,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "28b7d731-d990-4714-9a27-96befad1fc92",
+      "width": 160,
+      "x": 416,
+      "y": 264,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "Heart"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "568fc90e-ded6-4e7e-bc82-8cb41056e8a9",
+      "width": 160,
+      "x": 416,
+      "y": 312,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "Skull"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "4dec770a-fe58-4488-a759-3c4daa89b268",
+      "width": 160,
+      "x": 416,
+      "y": 360,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "Enemy"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "name": "Message",
+      "persistentUuid": "f63e1ba8-841e-4e0a-ba16-2fec57f5b573",
+      "width": 0,
+      "x": 400,
+      "y": 464,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "GUI",
+      "name": "Icon",
+      "persistentUuid": "0b0c5486-c083-4bcd-807b-a590979b23a1",
+      "width": 24,
+      "x": 908,
+      "y": 27,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "name": "IconBackground",
+      "persistentUuid": "e64448ed-42ab-4f74-8a1e-1d81866368d0",
+      "width": 48,
+      "x": 896,
+      "y": 16,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "QuitScene"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Background",
+      "tags": "",
+      "texture": "assets\\tiles\\platform-081.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Header",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rating",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\rating.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Loser",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\loser.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Coin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\enemies\\bat\\fly-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Heart",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\lives-indicator.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skull",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\skull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Level",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 0",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
+      "textAlignment": "",
+      "characterSize": 24,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Message",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Message",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
+      "textAlignment": "",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Debug"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transitions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Level",
+            "=",
+            "\"Level \" + ToString(GlobalVariable(Scene.LevelId))"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Level",
+            "=",
+            "(SceneWindowWidth() - Level.Width()) / 2"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Scene.Current.Heart",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Header",
+                "\"Loser\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Message"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\music\\death-is-just-another-path.ogg",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.MusicVolume)",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Scene.Current.Heart",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level[ToString(GlobalVariable(Scene.LevelId))]",
+                "=",
+                "max(Variable(Score.Relative), GlobalVariable(Level[ToString(GlobalVariable(Scene.LevelId))]))"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Root\"",
+                "\"Level\"",
+                "GlobalVarToJSON(Level)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\music\\tribal.mp3",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.MusicVolume)",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Coin\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Coin) / GlobalVariable(Scene.Total.Coin) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Enemy\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Enemy) / GlobalVariable(Scene.Total.Enemy) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Heart\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Heart) / GlobalVariable(Scene.Total.Heart) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Skull\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Skull) / GlobalVariable(Scene.Total.Skull) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "\"You did not score enough points to unlock level \" + ToString(GlobalVariable(Scene.LevelId) + 1)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "ProgressBarMarker",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Message",
+                        "=",
+                        "\"You unlocked level \" + ToString(GlobalVariable(Scene.LevelId) + 1) + \", congratulations!\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "(SceneWindowWidth() - Message.Width()) / 2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisBouton"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Core::Button::IsMouseOver"
+              },
+              "parameters": [
+                "IconBackground",
+                "Button",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "IconBackground",
+                "Action",
+                "=",
+                "\"QuitScene\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Core::TransitionToScene"
+              },
+              "parameters": [
+                "",
+                "Transition",
+                "Transition",
+                "\"Menu\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Button",
+      "type": "Core::Button"
+    },
+    {
+      "name": "Transition",
+      "type": "Core::Transition"
+    }
+  ]
+}

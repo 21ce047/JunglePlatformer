@@ -1,0 +1,113 @@
+{
+  "associatedLayout": "Menu",
+  "name": "LevelIcon",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level",
+      "persistentUuid": "1a99700f-914b-493b-a675-cde3c9638117",
+      "width": 0,
+      "x": 15,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "name": "ItemBackground",
+      "persistentUuid": "44500871-9e02-4105-bd21-a70abe4ad913",
+      "width": 48,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "name": "Stars",
+      "persistentUuid": "d30a75d6-462d-4110-a3ed-92688c6cf1cc",
+      "width": 48,
+      "x": 0,
+      "y": 32,
+      "zOrder": 6,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 30,
+      "layer": "",
+      "name": "Lock",
+      "persistentUuid": "b0a383ae-1507-4314-8f9e-618fced4a18e",
+      "width": 24,
+      "x": 12,
+      "y": 7,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 16,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 2.32
+  }
+}

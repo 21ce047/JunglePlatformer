@@ -1,0 +1,3135 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "39385644-0399-4513-9c45-786012fbb1c8",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "JunglePlatformer",
+    "description": "",
+    "author": "",
+    "windowWidth": 960,
+    "windowHeight": 540,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 40,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-043.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-056.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-057.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-063.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-062.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-044.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-058.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-033.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-034.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-010.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-031.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-020.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-052.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-053.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-048.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-049.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-021.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-022.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-040.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-038.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-054.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-055.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-061.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-060.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-023.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-024.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-042.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-041.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-018.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-014.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-085.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-086.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-090.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-089.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-070.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-071.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-097.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-096.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-017.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-037.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-035.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/platform-035.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\platform-035.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-030.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/platform-030.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\platform-030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-036.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/platform-036.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\tiles\\platform-036.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-026.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-016.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/platform-016.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\tiles\\platform-016.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-077.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-091.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-088.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-094.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-092.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-072.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-073.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-079.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-078.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-027.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/platform-027.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\tiles\\platform-027.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-081.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-084.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-083.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-075.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-076.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-093.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-098.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-074.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-082.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-087.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-080.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-05.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-07.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-08.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-09.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/die-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\die-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/walk-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\walk-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\idle-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/die-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\die-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/jump-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\jump-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/land-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\land-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/adventurer/grab-platform-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\adventurer\\grab-platform-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/overlay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\overlay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\coin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\skull.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spawn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spawn.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/walk-leaves-2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\walk-leaves-2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/walk-leaves-1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\walk-leaves-1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/die.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\die.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/pickup-coin.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\pickup-coin.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/kill.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\kill.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/pickup-heart.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\pickup-heart.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/activate-checkpoint.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\activate-checkpoint.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/respawn.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\respawn.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/small-platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\small-platform.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/large-platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\large-platform.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\jungle-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/background/jungle-2.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\background\\jungle-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\jungle-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/background/jungle-4.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\background\\jungle-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\down.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\heart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\saw.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\ball.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/toggle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\toggle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/logo.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/gui/logo.png\",\"extension\":\".png\"}",
+        "name": "assets\\gui\\logo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/cloud-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/background/cloud-1.png\",\"extension\":\".png\"}",
+        "name": "assets\\background\\cloud-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/cloud-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/background/cloud-2.png\",\"extension\":\".png\"}",
+        "name": "assets\\background\\cloud-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/music-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\music-on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/sound-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\sound-on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/sound-off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\sound-off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/leaderboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\leaderboard.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/gui/icon-background.png\",\"extension\":\".png\"}",
+        "name": "assets\\gui\\icon-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/table-small-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\table-small-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/table-small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\table-small.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background-disabled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\icon-background-disabled.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/previous.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\previous.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\next.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/page-current.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\page-current.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\lock.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\close.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background-mouseover.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/gui/icon-background-mouseover.png\",\"extension\":\".png\"}",
+        "name": "assets\\gui\\icon-background-mouseover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background-mouseover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background-mouseover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-marker-inactive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-marker-inactive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-marker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-marker.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/lives-indicator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\lives-indicator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/Kavoon-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\Kavoon-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background-disabled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background-disabled.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flagpole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flagpole.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/loser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\loser.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/rating.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\rating.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/gui/click.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\gui\\click.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/game-over.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\game-over.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/winner.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\winner.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/tribal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\tribal.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/revenge-of-the-jungle.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\revenge-of-the-jungle.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/death-is-just-another-path.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\death-is-just-another-path.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/jungle-jumpin.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\jungle-jumpin.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/ARCADECLASSIC.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\ARCADECLASSIC.TTF",
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/ARCADE.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\ARCADE.TTF",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_background_cloud-1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\background\\cloud-1.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SmallBackground3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SmallBackground",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_background_jungle-1.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\background\\jungle-1.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_background_jungle-3.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\background\\jungle-3.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_platform-036.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_tiles_platform-036.png2.png\"}",
+        "name": "assets\\tiles\\platform-036.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_platform-036.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\tiles\\platform-036.png22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_platform-036.png23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_tiles_platform-036.png23.png\"}",
+        "name": "assets\\tiles\\platform-036.png23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/retganon.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\retganon.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moving10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Moving10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_background_cloud-2.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\background\\cloud-2.png2",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "IconBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Action",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "Core::Button"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnMouseOver",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background-mouseover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Disabled",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background-disabled.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Icon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Leaderboard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\leaderboard.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\next.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\previous.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QuitScene",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\close.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LivesIndicator",
+      "tags": "GUI",
+      "texture": "assets\\gui\\lives-indicator.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 7,
+      "height": 16,
+      "leftMargin": 7,
+      "name": "ProgressBarBackground",
+      "rightMargin": 7,
+      "tags": "",
+      "texture": "assets\\gui\\progressbar-background.png",
+      "tiled": true,
+      "topMargin": 7,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 16,
+      "variables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "Main"
+        }
+      ],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 6,
+      "height": 16,
+      "leftMargin": 8,
+      "name": "ProgressBar",
+      "rightMargin": 8,
+      "tags": "",
+      "texture": "assets\\gui\\progressbar.png",
+      "tiled": true,
+      "topMargin": 9,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "ProgressBarMarker",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Id",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Inactive",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\progressbar-marker-inactive.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\progressbar-marker.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Table",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SmallBackground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "SmallBackground",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\table-small.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 256,
+      "name": "Transition",
+      "tags": "",
+      "texture": "assets\\transition.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [
+        {
+          "name": "ToScene",
+          "type": "string",
+          "value": "_"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Transition",
+          "type": "Core::Transition"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
+      "textAlignment": "",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FPS",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "FPS: 0",
+      "font": "",
+      "textAlignment": "",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SimulationSpeed",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Time",
+          "type": "string",
+          "value": "1"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Relative simulation speed: Unknown",
+      "font": "",
+      "textAlignment": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LivingObjects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Living objects: 0",
+      "font": "",
+      "textAlignment": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RenderedObjects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Visible objects: 0",
+      "font": "",
+      "textAlignment": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TotalObjects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Total objects: 0",
+      "font": "",
+      "textAlignment": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Player",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Lives",
+          "type": "string",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "type": "structure",
+      "children": [
+        {
+          "name": "MusicVolume",
+          "type": "string",
+          "value": "50"
+        },
+        {
+          "name": "Sound",
+          "type": "string",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "name": "Level",
+      "type": "structure",
+      "children": [
+        {
+          "name": "0",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "name": "1",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "2",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "3",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Debug",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Visible",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Coin",
+          "type": "string",
+          "value": "10"
+        },
+        {
+          "name": "Enemy",
+          "type": "string",
+          "value": "15"
+        },
+        {
+          "name": "Heart",
+          "type": "string",
+          "value": "35"
+        },
+        {
+          "name": "Skull",
+          "type": "string",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "name": "Scene",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Current",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Coin",
+              "type": "string",
+              "value": "1"
+            },
+            {
+              "name": "Enemy",
+              "type": "string",
+              "value": "1"
+            },
+            {
+              "name": "Heart",
+              "type": "string",
+              "value": "1"
+            },
+            {
+              "name": "Skull",
+              "type": "string",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "LevelId",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Total",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Coin",
+              "type": "string",
+              "value": "2"
+            },
+            {
+              "name": "Enemy",
+              "type": "string",
+              "value": "6"
+            },
+            {
+              "name": "Heart",
+              "type": "string",
+              "value": "3"
+            },
+            {
+              "name": "Skull",
+              "type": "string",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/levelfinished"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levelcheats"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levelenemies"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levellogic"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levelplayer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levelprogress"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/leveltraps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/leveluserinterface"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/transitions"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/core"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/levelicon"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/leveluserinterface"
+    }
+  ],
+  "externalSourceFiles": []
+}

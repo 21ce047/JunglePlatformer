@@ -1,0 +1,90 @@
+{
+  "associatedLayout": "Level1",
+  "name": "LevelUserInterface",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "340935ea-3f30-40e4-93ec-64ff7e02d0e7",
+      "width": 208,
+      "x": 376,
+      "y": 6,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "GUI",
+      "name": "LivesIndicator",
+      "persistentUuid": "c573e0ff-39ee-4293-86ba-4c27b76c86b9",
+      "width": 32,
+      "x": 16,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "GUI",
+      "name": "Icon",
+      "persistentUuid": "56f28fa5-693b-467b-85c4-93f72b3365ae",
+      "width": 24,
+      "x": 908,
+      "y": 27,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "name": "IconBackground",
+      "persistentUuid": "e16193aa-318a-4a32-a30c-36029f7468c9",
+      "width": 48,
+      "x": 896,
+      "y": 16,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "QuitScene"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 16,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1.048
+  }
+}
